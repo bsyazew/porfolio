@@ -10,17 +10,24 @@ font-weight: bold;
 font-size: 96px;
 }
 
-p{
+.homepage-body p{
   font-family: var(--secondary-font);
   font-weight: bold;
   
   font-size: 36px;
 }
 
-h2{
+.job-title h2{
   font-family: var(--secondary-font);
   font-weight: regular;
   font-size: 24px;
+  color: 272142;
+  padding: 20px;
+}
+h2{
+  font-family: var(--main-font);
+  font-weight: bold;
+  font-size: 64px;
   color: 272142;
   padding: 20px;
 }
@@ -28,7 +35,7 @@ h2{
 .homepage-body {
   background: F9F7FE;
   text-align: center;
-  padding: 70px;
+  padding: 200px;
 }
 
 .btn-design {
@@ -36,4 +43,19 @@ h2{
   color: white;
   background:#6C63FF;
   margin-top: 20px;
+}
+
+.btn-design-2 {
+  border-radius: 4px;
+  color:#6C63FF;
+  background: white;
+  margin-top: 20px;
+  
+  border-color:  #6C63FF;
+}
+p{
+  font-family: var(--secondary-font);
+  font-weight: regular;
+  line-height: 2;
+  font-size: 18px;
 }
