@@ -59,3 +59,37 @@ p{
   line-height: 2;
   font-size: 18px;
 }
+
+@media (max-width:576px){
+  p {
+    text-align: center;
+  }
+  h1 {
+    font-size: 40px;
+  }
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+}
+.job-title h2{
+  font-size: 16px;
+  color: red;
+}
+  .homepage-body p{
+  font-size: 15px;
+}
+
+.btn-design-2 {
+  display: block;
+  padding: 0 50px;
+}
+.btn-design {
+  display: block;
+  padding: 0 20px ;
+}
+
+.homepage-body {
+  padding: 20px
+}
+}
