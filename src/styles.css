@@ -1,3 +1,39 @@
+:root {
+  --main-font: "Playfair Display", serif;
+  --secondary-font:"Poppins", sans-serif;
+}
+
 h1{
-  color: red;
+  
+  font-family: var(--main-font);
+font-weight: bold;
+font-size: 96px;
+}
+
+p{
+  font-family: var(--secondary-font);
+  font-weight: bold;
+  
+  font-size: 36px;
+}
+
+h2{
+  font-family: var(--secondary-font);
+  font-weight: regular;
+  font-size: 24px;
+  color: 272142;
+  padding: 20px;
+}
+
+.homepage-body {
+  background: F9F7FE;
+  text-align: center;
+  padding: 70px;
+}
+
+.btn-design {
+  border-radius: 4px;
+  color: white;
+  background:#6C63FF;
+  margin-top: 20px;
 }
