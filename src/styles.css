@@ -1,6 +1,8 @@
 :root {
   --main-font: "Playfair Display", serif;
   --secondary-font:"Poppins", sans-serif;
+  --background-color:  #F9F7FE;
+  --primary-color: #6C63FF;
 }
 
 h1{
@@ -8,6 +10,7 @@ h1{
   font-family: var(--main-font);
 font-weight: bold;
 font-size: 96px;
+text-align: center;
 }
 
 .homepage-body p{
@@ -23,6 +26,14 @@ font-size: 96px;
   font-size: 24px;
   color: 272142;
   padding: 20px;
+  
+}
+.about-page-body  h2{
+ font-size: 30px;
+}
+.about-page-body h1 {
+ font-size: 80px;
+ text-align: left;
 }
 h2{
   font-family: var(--main-font);
@@ -30,10 +41,11 @@ h2{
   font-size: 64px;
   color: 272142;
   padding: 20px;
+ 
 }
 
 .homepage-body {
-  background: F9F7FE;
+  background:var(--background-color);
   text-align: center;
   padding: 200px;
 }
@@ -41,43 +53,70 @@ h2{
 .btn-design {
   border-radius: 4px;
   color: white;
-  background:#6C63FF;
+  background:var(--primary-color);
   margin-top: 20px;
+  text-decoration: none;
 }
 
 .btn-design-2 {
   border-radius: 4px;
-  color:#6C63FF;
+  color:var(--primary-color);
   background: white;
   margin-top: 20px;
   
-  border-color:  #6C63FF;
+  border-color: var(--primary-color);
 }
 p{
   font-family: var(--secondary-font);
   font-weight: regular;
   line-height: 2;
   font-size: 18px;
+  
+}
+.portrait{
+  border-radius: 10px;
+  
+  
 }
 
-@media (max-width:576px){
+.inquiry-body{
+  background-color: var(--background-color)
+}
+
+.email-link {
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+}
+
+.icons {
+color: var(--primary-color);
+}
+@media (max-width:990px){
   p {
     text-align: center;
+    font-size: 16px;
   }
   h1 {
     font-size: 40px;
+    
   }
 
 h2 {
   font-size: 30px;
   text-align: center;
 }
-.job-title h2{
-  font-size: 16px;
-  color: red;
+.job-title {
+  font-size: 19px;
+
+ 
 }
   .homepage-body p{
   font-size: 15px;
+}
+
+.about-page-body h1{
+  text-align: center;
 }
 
 .btn-design-2 {
@@ -91,5 +130,10 @@ h2 {
 
 .homepage-body {
   padding: 20px
+}
+
+.portrait{
+  border-radius: 50px;
+  padding:20px;
 }
 }
