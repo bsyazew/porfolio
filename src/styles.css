@@ -28,11 +28,11 @@ text-align: center;
   padding: 20px;
   
 }
-.about-page-body  h2{
+.content-body  h2{
  font-size: 30px;
 }
-.about-page-body h1 {
- font-size: 80px;
+.content-body h1 {
+ font-size: 64px;
  text-align: left;
 }
 h2{
@@ -73,6 +73,7 @@ p{
   font-size: 18px;
   
 }
+
 .portrait{
   border-radius: 10px;
   
@@ -80,7 +81,9 @@ p{
 }
 
 .inquiry-body{
-  background-color: var(--background-color)
+  background-color: var(--background-color);
+  margin-top: 300px;
+  
 }
 
 .email-link {
@@ -92,6 +95,38 @@ p{
 .icons {
 color: var(--primary-color);
 }
+
+.project-name{
+font: var(--secondary-font);
+font-weight: bold;
+font-size: 24px;
+text-align: center;
+
+}
+
+.title-subheading{
+  font: var(--secondary-font);
+  font-weight: regular;
+  font-size: 14px;
+  text-align: center;
+}
+.app-images{
+  border-radius: 20px;
+  margin-top: 30px;
+
+}
+
+.inquiry-btn-design{
+  display: inline-block;
+  border-radius: 4px;
+  color: white;
+  background:var(--primary-color);
+  margin-top: 40px;
+  
+  text-decoration: none;
+}
+
+
 @media (max-width:990px){
   p {
     text-align: center;
@@ -115,7 +150,7 @@ h2 {
   font-size: 15px;
 }
 
-.about-page-body h1{
+.content-body h1{
   text-align: center;
 }
 
