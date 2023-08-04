@@ -20,7 +20,9 @@ text-align: center;
 }
 
 
-.job-title h2{
+.job-title h2, 
+.email-link
+{
   font-family: var(--secondary-font);
   font-weight: regular;
   font-size: 24px;
@@ -38,7 +40,7 @@ text-align: center;
 h2{
   font-family: var(--main-font);
   font-weight: bold;
-  font-size: 24px;
+  font-size: 30px;
   color: 272142;
   padding: 20px;
  
@@ -47,29 +49,10 @@ h2{
 .homepage-body {
   background:var(--background-color);
   text-align: center;
-  padding: 200px;
+  padding: 100px;
 }
 
-.btn-design {
-  
-  border-radius: 4px;
-  color: white;
-  background:var(--primary-color);
-  margin-top: 20px;
-  text-decoration: none;
-  font-size: 18px;
-  font: var(--secondary-font);
-  padding: 18px 30px;
-}
 
-.btn-design-2 {
-  border-radius: 4px;
-  color:var(--primary-color);
-  background: white;
-  margin-top: 20px;
-  
-  border-color: var(--primary-color);
-}
 p{
   font-family: var(--secondary-font);
   font-weight: regular;
@@ -110,14 +93,34 @@ text-align: center;
   margin-top: 30px;
 
 }
+.btn-design {
+  
+  border-radius: 4px;
+  color: white;
+  background:var(--primary-color);
+  margin-top: 20px;
+  text-decoration: none;
+  font-size: 18px;
+  font: var(--secondary-font);
+  padding: 18px 30px;
+}
+
+.btn-design-2 {
+  border-radius: 4px;
+  color:var(--primary-color);
+  background: white;
+  margin-top: 20px;
+   padding: 18px 30px;
+  border-color: var(--primary-color);
+}
 
 .inquiry-btn-design{
-  display: inline-block;
+ 
   border-radius: 4px;
   color: white;
   background:var(--primary-color);
   margin-top: 40px;
-  
+   padding: 18px 30px;
   text-decoration: none;
 }
 
@@ -155,15 +158,38 @@ nav li.active a {
   transition: all 500ms ease-in-out;
 }
 
+.social-link-title,
+.social-link-product
+{font-weight: bold;
+font-size: 20px;
+font: var(--secondary-font);
+color: black;
 
-.email-link {
-  font-size: 30px;
+list-style: none;
+}
+
+
+.icons {
+  padding-right: 20px;
+  
+}
+
+.email-link,
+.contactpage-links
+ {
+  font-size: 40px;
   text-decoration: none;
   color: black;
+   list-style: none;
+   margin-bottom: 10px;
+   font: var(--secondary-font)
+  ;
 }
-.email-link:hover {
+.email-link:hover,
+.contactpage-links li:hover,
+a:hover  {
    color: var(--primary-color);
-  transition: all 500ms ease-in-out;
+  transition: all 300ms ease-in-out;
 }
 
 .social-links a{
@@ -176,7 +202,7 @@ border-radius: 50%;
 .social-links a:hover
  {
   color: black;
-  transition: all 500ms ease-in-out;
+  transition: all 300ms ease-in-out;
 }
  
 @media (max-width:990px){
@@ -212,7 +238,7 @@ h2 {
 }
 .btn-design {
   display: block;
-  padding: 0 30px ;
+  padding: 0 50px ;
   text-align: center;
   
 }
@@ -229,4 +255,5 @@ h2 {
   max-height: 50px;
   max-width: 50px;
 }
+
 }
