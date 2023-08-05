@@ -1,8 +1,8 @@
 :root {
   --main-font: "Playfair Display", serif;
   --secondary-font:"Poppins", sans-serif;
-  --background-color:  #F9F7FE;
-  --primary-color: #6C63FF;
+  --background-color:  #fff1fe;
+  --primary-color: #F09AE8;
 }
 .homepage-body p{
   font-family: var(--secondary-font);
