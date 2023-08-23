@@ -71,11 +71,13 @@ p {
   margin-top: 100px;
 }
 
-.project-name {
+.project-name a {
   font: var(--secondary-font);
   font-weight: bold;
   font-size: 24px;
   text-align: center;
+  color: black;
+  
 }
 
 .title-subheading {
@@ -148,6 +150,7 @@ nav a:hover,
 nav li.active a {
   color: var(--secondary-color);
   transition: all 500ms ease-in-out;
+  text-decoration: underline;
 }
 
 .social-link-title,
@@ -200,12 +203,15 @@ a:hover {
   }
   h1 {
     font-size: 40px;
+   
   }
 
   h2 {
     font-size: 30px;
     text-align: center;
   }
+
+
   .secondary-font {
     font-size: 19px;
   }
