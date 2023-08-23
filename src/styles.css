@@ -24,7 +24,7 @@ h1 {
   text-align: center;
 }
 
-.job-title h2
+.secondary-font h2
  {
   font-family: var(--secondary-font);
   font-weight: regular;
@@ -151,7 +151,9 @@ nav li.active a {
 }
 
 .social-link-title,
-.social-link-product {
+.social-link-product
+
+ {
   font-weight: bold;
   font-size: 20px;
   font: var(--secondary-font);
@@ -164,7 +166,8 @@ nav li.active a {
 }
 
 .email-link,
-.contactpage-links {
+.contactpage-links
+ {
   font-size: 40px;
   text-decoration: none;
   color: var(--primary-color);
@@ -203,7 +206,7 @@ a:hover {
     font-size: 30px;
     text-align: center;
   }
-  .job-title {
+  .secondary-font {
     font-size: 19px;
   }
   .homepage-body p {
